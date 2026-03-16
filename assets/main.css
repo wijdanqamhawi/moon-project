@@ -78,7 +78,7 @@ h2{
 }
 
 .best-sellers h2{
-font-family: Garamond;
+font-family: " EB-Garamond";
 font-weight: 700;
 font-style: Bold;
 font-size: 30px;
@@ -114,53 +114,33 @@ text-transform: uppercase;
     letter-spacing: 0;   
 }
 .best-sellers .row {
-    gap: 30px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
 }
-
-.best-sellers .item{
-    text-align:left;
-    flex:1 1 200px;
+.best-sellers .item {
+    text-align: left;
 }
-
-
+.best-sellers .item-img {
+    width: 100%;
+    height: 287px;
+    overflow: hidden; 
+}
+.best-sellers .item-img img {
+    width: 100%;
+    height: 100%;
+    
+    display: block;
+}
+.best-sellers .item-content {
+    margin-top: 16px;
+}
 .best-sellers .addtocard {
-   width: 255px;
+    width: 100%;
+    max-width: 255px;
     height: 39px;
-    padding: 15px 18px; 
+    padding: 0 18px; 
     border: 1px solid #000;
     cursor: pointer;
-   
+    margin-top: 8px;
 }
-
-.best-sellers .item-content{
-   margin-top: 24px;
-}
-
-.best-sellers .item-img {
-  width: 100%;
-  height: 287px;
-  overflow: hidden; 
-}
-
-.best-sellers .item-img img {
-  width: 100%;
-  height: auto; 
-  display: block;
-  margin: 0 auto;
-}
- 
- @media screen and (min-width:701px) and (max-width:960px){
-    
-    .best-sellers h3{
-        font-size:16px;
-    }
-
-    .best-sellers .addtocard{
-        padding:15px 30px;
-    }
-}
-    
- 
-
-
-
