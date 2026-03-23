@@ -17,10 +17,13 @@
     flex-direction: row;
     
 }
-.header{
-    padding: 21.84px 0;
-    position:fixed;
-    width:100%;
+.header {
+     padding: 21.84px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
 }
  .list-ul{
     display:flex;
@@ -32,6 +35,9 @@
     list-style: none;
     gap:24px;
     
+}
+body {
+    margin-top: 80px; 
 }
 .icons a{
     cursor: pointer;
@@ -154,14 +160,7 @@ text-shadow: 0px 0px 10px black;
     
 }
 
-.hero {
-    background-image: url('./img/Sliderr.png');
-    height:100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
+
 @media screen and (max-width:600px) {
     .hero{
         height: 60vh;
@@ -172,4 +171,58 @@ text-shadow: 0px 0px 10px black;
 .item-content .details{
     height:100px;
 
+}
+.hero {
+    background-image: url('./img/Slider.png');
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;    
+}
+
+.hero .hero-content {
+   background-color: #826F66;
+   height: 100%;
+   width: 420px;
+   text-align: center;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    position: absolute;
+    top:0px;
+    left:80px;
+    
+}
+.hero .hero-content h3 {
+    font-size: 16px;
+}
+
+.hero .hero-content p {
+    font-size: 12px;
+}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .hero .hero-content {
+        width: 90%;
+        left: 50px;
+        padding: 20px;
+    }
+     
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .hero .hero-content {
+        width: 60%;
+        left: 40px;
+        padding: 25px;
+    }
+    .hero .hero-content h3 
+    { 
+        font-size: 18px;
+     }
+    .hero .hero-content p { 
+        font-size: 13px;
+     }
 }
