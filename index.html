@@ -2,238 +2,236 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="./assets/main.css">
-    
+    <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="./assets/main.css">
+
     <title>Document</title>
 </head>
 <body>
-  <header class="header">
-  <div class="container">
-    <div class="row">
+    <header class="header fixed">
+        <div class="container">
+            <div class="row">
+                <div class="menue">
+                    <img src="./assets/icons/Menu.svg" alt="menu">
+                </div>
 
-      <div class="menue">
-        <img src="./assets/icons/Menu.svg" alt="menu">
-      </div>
+                <div class="logo">
+                    <img src="./assets/img/logo.svg" alt="logo">
+                </div>
 
-      <div class="logo">
-        <img src="./assets/img/logo.svg" alt="logo"/>
-      </div>
+                <nav class="list">
+                    <ul class="list-ul flex gap-60">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
 
-      <nav class="list">
-        <ul class="list-ul">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+                <div class="icons">
+                    <ul class="icons-style flex gap-24">
+                        <li class="pointer">
+                            <a href="#"><img src="./assets/img/Search.svg" alt="search"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./assets/img/Avatar.svg" alt="account"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./assets/img/Heart.svg" alt="favorites"></a>
+                        </li>
+                        <li class="shopping-icons">
+                            <a href="#"><img src="./assets/img/Shopping cart.svg" alt="cart"></a>
+                        </li>
+                    </ul>
+                </div>
 
-      <div class="icons">
-        <ul class="icons-ul">
-          <li>
-            <a href="#"><img src="./assets/img/Search.svg" alt="search"></a>
-          </li>
-          <li>
-            <a href="#"><img src="./assets/img/Avatar.svg" alt="account"></a>
-          </li>
-          <li>
-            <a href="#"><img src="./assets/img/Heart.svg" alt="favorites"></a>
-          </li>
-          <li class="shopping-icons">
-            <a href="#"><img src="./assets/img/Shopping cart.svg" alt="cart"></a>
-          </li>
-        </ul>
-      </div>
-
-    </div>
-  </div>
-</header>
-   <main>
-<section class="hero">
-
-  <div class="hero-content">
-    <img src="./assets/icons/Icon.svg" alt="icon">
-    <p>Handcrafted in Viet Nam since 1650</p>
-    <h3>BAT TRANG DINNER SET</h3>
-  </div>
-
-</section>
-
-<section class="collection-section">
-  <div class="container">
-
-    <h2>Collection</h2>
-
-    <div class="row">
-
-      <div class="collection">
-        <span class="badge-sale">SALE</span>
-        <img src="./assets/img/TABLEWARE.png" alt="Tableware">
-        <div class="collection-details">
-          <h3>TABLEWARE</h3>
-          <a href="#">Details</a>
+            </div>
         </div>
-      </div>
+    </header>
 
-      <div class="collection">
-        <img src="./assets/img/HOME DECOR.png" alt="Home Decor">
-        <div class="collection-details">
-          <h3>HOME DECOR</h3>
-          <a href="#">Details</a>
-        </div>
-      </div>
+    <main>
+        <section class="hero">
+            <div class="hero-content flex-center flex-column text-center">
+                <img src="./assets/icons/Icon.svg" alt="icon">
+                <p>Handcrafted in Viet Nam since 1650</p>
+                <h3>BAT TRANG DINNER SET</h3>
+            </div>
+        </section>
 
-      <div class="collection">
-        <img src="./assets/img/HOLIDAY.png" alt="Holiday">
-        <div class="collection-details">
-          <h3>HOLIDAY</h3>
-          <a href="#">Details</a>
-        </div>
-      </div>
+        <section class="collection-section text-center">
+            <div class="container">
 
-      <div class="collection">
-        <img src="./assets/img/COLLECTION.png" alt="Collection">
-        <div class="collection-details">
-          <h3>COLLECTION</h3>
-          <a href="#">Details</a>
-        </div>
-      </div>
+                <h2>Collection</h2>
 
-    </div>
-  </div>
-</section>
-   
+                <div class="row">
 
+                    <div class="collection pointer relative overflow-hidden">
+                        <span class="badge-sale">SALE</span>
+                        <img src="./assets/img/TABLEWARE.png" alt="Tableware">
+                        <div class="collection-details flex-center flex-column gap-10 text-white absolute">
+                            <h3>TABLEWARE</h3>
+                            <a href="#">Details</a>
+                        </div>
+                    </div>
 
-   <section class="best-sellers">
-    <h2>best-sellers</h2>
-    <div class="container">
-        <div class="row">
-    <div class="item">
-    <div class="item-img">
-        <img src="./assets/sellers/Small Ecru Ceramic Compote.png">
-    </div>
-    <div class="item-content">
-        <div class="details">
-        <h3>Small Ecru Ceramic Compote</h3>
-        <span class="price">$49.00</span>
-        <p class="description">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
-        </div>
-        <button class="addtocard">Add to card</button>
-    </div>
-    </div>
+                    <div class="collection">
+                        <img src="./assets/img/HOME DECOR.png" alt="Home Decor">
+                        <div class="collection-details flex-center flex-column gap-10 text-white">
+                            <h3>HOME DECOR</h3>
+                            <a href="#">Details</a>
+                        </div>
+                    </div>
 
-    <div class="item">
-    <div class="item-img">
-        <img src="./assets/sellers/Warrick White Vase 14.png">
-    </div>
-    <div class="item-content">
-       <div class="details">
-        <h3>Warrick White Vase 14</h3>
-        <span class="price">$49.00</span>
-        <p class="description">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
-      </div>
-        <button class="addtocard">Add to card</button>
-    </div>
-    </div>
-    
-    <div class="item">
-    <div class="item-img">
-        <img src="./assets/sellers/Porcelain Dinner Plate.png">
-    </div>
-    <div class="item-content">
-        <div class="details">
-        <h3>Porcelain Dinner Plate</h3>
-        <span class="price">$49.00</span>
-        <p class="description">Lorem ipsum dolor sit amet conse bolli tetur .</p>
-        </div>
-        <button class="addtocard">Add to card</button>
-    </div>
-    </div>
+                    <div class="collection">
+                        <img src="./assets/img/HOLIDAY.png" alt="Holiday">
+                        <div class="collection-details flex-center flex-column gap-10 text-white">
+                            <h3>HOLIDAY</h3>
+                            <a href="#">Details</a>
+                        </div>
+                    </div>
 
-    <div class="item">
-    <div class="item-img">
-        <img src="./assets/sellers/Warrick White Vase 20.png">
-    </div>
-    <div class="item-content">
-        <div class="details">
-        <h3>Warrick White Vase 20</h3>
-        <span class="price">$49.00</span>
-        <p class="description">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
-        </div>
-        <button class="addtocard">Add to card</button>
-    </div>
-    </div>
+                    <div class="collection">
+                        <img src="./assets/img/COLLECTION.png" alt="Collection">
+                        <div class="collection-details flex-center flex-column gap-10 text-white">
+                            <h3>COLLECTION</h3>
+                            <a href="#">Details</a>
+                        </div>
+                    </div>
 
-    <div class="item">
-     <div class="item-img">
-        <img src="./assets/sellers/Rounded Dual handled Vase.png">
-    </div>
-    <div class="item-content">
-        <div class="details">
-        <h3>Rounded Dual handled Vase</h3>
-        <span class="price">$49.00</span>
-        <p class="description">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
-       </div>
-        <button class="addtocard">Add to card</button>
-    </div>
-    </div>
+                </div>
+            </div>
+        </section>
 
-    <div class="item">
-     <div class="item-img">
-        <img src="./assets/sellers/Marin White Dinner Plate.png">
-    </div>
-    <div class="item-content">
-        <div class="details">
-        <h3>Marin White Dinner Plate</h3>
-        <span class="price">$49.00</span>
-        <p class="description">Lorem ipsum dolor sit amet conse.</p>
-        </div>
-        <button class="addtocard">Add to card</button>
-    </div>
-    </div>
+        <section class="best-sellers">
+            <h2 class="text-center" >best-sellers</h2>
+            <div class="container">
+                <div class="row">
 
-    <div class="item">
-     <div class="item-img">
-        <img src="./assets/sellers/Tall Cream Ceramic Vase.png">
-    </div>
-    <div class="item-content">
-        <div class="details">
-        <h3>Tall Cream Ceramic Vase</h3>
-        <span class="price">$49.00</span>
-        <p class="description">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
-        </div>
-        <button class="addtocard">Add to card</button>
-    </div>
-    </div>
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/sellers/Small Ecru Ceramic Compote.png" alt="Small Ecru Ceramic Compote">
+                        </div>
+                        <div class="item-content">
+                            <div class="details">
+                                <h3>Small Ecru Ceramic Compote</h3>
+                                <span class="price">$49.00</span>
+                                <p class="description">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+                            </div>
+                            <button class="addtocard">Add to card</button>
+                        </div>
+                    </div>
 
-    <div class="item">
-    <div class="item-img">
-        <img src="./assets/sellers/Luana Bowl.png">
-    </div>
-    <div class="item-content">
-        <div class="details">
-        <h3>Luana Bowl</h3>
-        <span class="price">$49.00</span>
-        <p class="description">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
-       </div>
-        <button class="addtocard">Add to card</button>
-    </div>
-    </div>
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/sellers/Warrick White Vase 14.png" alt="Warrick White Vase 14">
+                        </div>
+                        <div class="item-content">
+                            <div class="details">
+                                <h3>Warrick White Vase 14</h3>
+                                <span class="price">$49.00</span>
+                                <p class="description">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
+                            </div>
+                            <button class="addtocard">Add to card</button>
+                        </div>
+                    </div>
 
-        </div>
-    </div>
-</section>
-   </main>
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/sellers/Porcelain Dinner Plate.png" alt="Porcelain Dinner Plate">
+                        </div>
+                        <div class="item-content">
+                            <div class="details">
+                                <h3>Porcelain Dinner Plate</h3>
+                                <span class="price">$49.00</span>
+                                <p class="description">Lorem ipsum dolor sit amet conse bolli tetur.</p>
+                            </div>
+                            <button class="addtocard">Add to card</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/sellers/Warrick White Vase 20.png" alt="Warrick White Vase 20">
+                        </div>
+                        <div class="item-content">
+                            <div class="details">
+                                <h3>Warrick White Vase 20</h3>
+                                <span class="price">$49.00</span>
+                                <p class="description">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
+                            </div>
+                            <button class="addtocard">Add to card</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/sellers/Rounded Dual handled Vase.png" alt="Rounded Dual handled Vase">
+                        </div>
+                        <div class="item-content">
+                            <div class="details">
+                                <h3>Rounded Dual handled Vase</h3>
+                                <span class="price">$49.00</span>
+                                <p class="description">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
+                            </div>
+                            <button class="addtocard">Add to card</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/sellers/Marin White Dinner Plate.png" alt="Marin White Dinner Plate">
+                        </div>
+                        <div class="item-content">
+                            <div class="details">
+                                <h3>Marin White Dinner Plate</h3>
+                                <span class="price">$49.00</span>
+                                <p class="description">Lorem ipsum dolor sit amet conse.</p>
+                            </div>
+                            <button class="addtocard">Add to card</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/sellers/Tall Cream Ceramic Vase.png" alt="Tall Cream Ceramic Vase">
+                        </div>
+                        <div class="item-content">
+                            <div class="details">
+                                <h3>Tall Cream Ceramic Vase</h3>
+                                <span class="price">$49.00</span>
+                                <p class="description">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+                            </div>
+                            <button class="addtocard">Add to card</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/sellers/Luana Bowl.png" alt="Luana Bowl">
+                        </div>
+                        <div class="item-content">
+                            <div class="details">
+                                <h3>Luana Bowl</h3>
+                                <span class="price">$49.00</span>
+                                <p class="description">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
+                            </div>
+                            <button class="addtocard">Add to card</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

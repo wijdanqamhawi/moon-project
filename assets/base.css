@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Inter" ;
+
+}
+.container{
+    width:1000px;
+    margin:0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.flex {
+     display: flex;
+     }
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-column { 
+    flex-direction: column; 
+}
+.flex-wrap {
+     flex-wrap: wrap;
+     }
+
+
+.gap-10 { 
+    gap: 10px;
+ }
+.gap-24 { 
+    gap: 24px;
+ }
+.gap-60 { 
+    gap: 60px;
+ }
+
+
+.text-center { 
+    text-align: center; 
+}
+.text-white { 
+    color: #fff;
+ }
+
+
+.relative {
+     position: relative; 
+    }
+.absolute { 
+    position: absolute; 
+}
+.fixed{
+    position: fixed;
+}
+
+
+.w-full {
+     width: 100%;
+     }
+
+
+.pointer {
+     cursor: pointer;
+     }
+     
+     .list-ul{
+    list-style-type:none;
+}
+.icons-style{
+    list-style: none;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+ 
+a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+h2{
+    text-transform: uppercase;
+    font-weight:600;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 4px;
+}
